@@ -9,7 +9,7 @@ class SudokuGiris:
     def __init__(self, root):
         self.root = root
         self.sudoku_app = Sudoku()
-        self.root.resizable(False,False) #hayatım tekrar boyutlandırmasın diye fırat yaptırdı.
+        self.root.resizable(False,False)
         self.root.title("Sudoku Giriş")
         self.root.geometry("800x700")
         self.root.configure(bg="#FFE4E1")  # Daha soft bir pembe tonu
